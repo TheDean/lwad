@@ -16,3 +16,8 @@ header h4 {
 	float: right;
 	width: 500px;
 }
+
+header .container, main .container, footer .container {
+	max-width: 855px;
+	margin: auto;
+}
