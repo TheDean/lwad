@@ -21,26 +21,28 @@ header p {
 	margin-top: 10px;
 }
 
-header h4 {
-	float: right;
-	width: 500px;
-}
-
 main {
 	overflow: auto;
 	padding: 30px, 0;
 	border-bottom: 1px solid black;
 }
 
-header .container, main .container, footer .container {
-	max-width: 855px;
-	margin: auto;
-}
-
 .comment-input {
+	float: left;
 
 }
 
 .comment {
-
+	float: right;
+	width: 570px;
+	margin: 10px;
+}
+.comments p:nth-child(even) {
+	background: lavender; 
+}
+.comments p:nth-child(odd) {
+	background: gainsboro;
+}
+.comment_input span:hover {
+	cursor: pointer;
 }
